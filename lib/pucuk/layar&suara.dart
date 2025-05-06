@@ -49,7 +49,7 @@ class _LayarDanSuaraScreenState extends State<LayarDanSuaraScreen> {
             ),
             const SizedBox(height: 30),
 
-            // Slider
+            
             SizedBox(
               width: 250,
               child: Slider(

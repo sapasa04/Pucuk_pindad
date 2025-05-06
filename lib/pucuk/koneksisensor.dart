@@ -317,7 +317,7 @@ class _SinkronisasiIDScreenState extends State<SinkronisasiIDScreen> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        automaticallyImplyLeading: false, // Hilangkan icon back
+        automaticallyImplyLeading: false, 
         title: const Text("SINKRONISASI ID", style: TextStyle(color: Colors.green)),
         iconTheme: const IconThemeData(color: Colors.green),
       ),

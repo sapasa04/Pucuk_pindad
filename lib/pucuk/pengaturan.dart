@@ -21,7 +21,7 @@ class PengaturanScreen extends StatelessWidget {
       ),
       body: Stack(
         children: [
-          // Menu Utama
+          
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

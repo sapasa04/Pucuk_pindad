@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'alatbidik.dart';
+import 'kompas.dart';
+import 'inclinometer.dart';
+import 'meteorologi.dart'; 
 
 class InformasiSistemScreen extends StatefulWidget {
   const InformasiSistemScreen({super.key});
@@ -92,8 +95,22 @@ class _InformasiSistemScreenState extends State<InformasiSistemScreen> {
             context,
             MaterialPageRoute(builder: (context) => const AlatBidikScreen()),
           );
+        } else if (label == 'KOMPAS') {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const KompasScreen()),
+          );
+        } else if (label == 'INCLINOMETER') {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const InclinometerScreen()),
+          );
+        } else if (label == 'METEOROLOGI') {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const MeteorologiScreen()), 
+          );
         }
-       
       },
       child: Container(
         width: 140,
